@@ -1,30 +1,57 @@
-# React + TypeScript + Vite
+# ChipListInput Component
+## Using React, Vite and TypeScript
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project implements a versatile Chip Component in React that allows users to input text, search for items, select them from a list, and convert them into chips. These chips can be removed individually by clicking the "X" icon. The component is designed to be user-friendly and responsive.
 
-Currently, two official plugins are available:
+## Features
+- User-friendly interface with an input field.
+- Dynamic list filtering as the user types.
+- Convert selected items into chips.
+- Remove chips by clicking the "X" icon.
+- Clean and maintainable React code.
+- TypeScript for strong typing (bonus task).
+- Highlight and delete the last chip when the input is blank and the user presses backspace (bonus task).
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Getting Started
+To get started with this Chip Component, follow these steps:
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+1. Clone the repository to your local machine:
+```bash
+git clone https://github.com/arvind-iyer-2001/zepto-chip.git
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+2. Navigate to the project directory and Install Packages:
+```bash
+cd chip-component
+
+pnpm i
+```
+
+3. Run the development server:
+```bash
+npm start
+```
+Open your browser and access the component at [http://localhost:3000](http://localhost:3000).
+
+Usage
+To use the Chip Component in your own project, you can follow these steps:
+1. Copy the contents of the Components Folder file to your project's components folder.
+
+2. Import the ChipListInputComponent into your desired React component:
+```typecript
+import ChipListInput from './components/ChipComponent';
+```
+
+3. Include the ChipComponent in your TSX:
+```typecript
+<ChipComponent />
+```
+4. Customize the component as needed for your specific use case.
+
+Contributing
+If you would like to contribute to this project, feel free to submit a pull request. We welcome any improvements, bug fixes, or additional features.
+
+License
+This project is licensed under the MIT License - see the LICENSE.md file for details.
+
+https://drive.google.com/file/d/1sy-YAhX1FYFImjLj1uXNilb7DHlbuveh/view
