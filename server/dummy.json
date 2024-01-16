@@ -1,0 +1,84 @@
+{
+    "users": [
+        {
+            "id": "1",
+            "name": "Nicky Romero",
+            "role": "Web Developer",
+            "email": "nicky-romero@gmail.com",
+            "avatarUrl": "https://i.pravatar.cc/200",
+            "bio": "Boom booom booom bada bada boom"
+        },
+        {
+            "id": "2",
+            "name": "Sam Smith",
+            "email": "sam-smith@yahoo.com",
+            "role": "UI/UX Designer",
+            "avatarUrl": "https://i.pravatar.cc/200",
+            "bio": "Just Unholy"
+        },
+        {
+            "id": "3",
+            "name": "Jake Johnson",
+            "email": "b-prkr@spidey.com",
+            "role": "Peter B Parker",
+            "avatarUrl": "https://i.pravatar.cc/200",
+            "bio": "I specialize in being Miles Morales' Mentor"
+        },
+        {
+            "id": "4",
+            "name": "Sara Connor",
+            "email": "sara-connor@example.com",
+            "role": "AI Specialist",
+            "avatarUrl": "https://i.pravatar.cc/200?img=4",
+            "bio": "On a mission to prevent the future uprising of machines."
+        },
+        {
+            "id": "5",
+            "name": "Tony Stark",
+            "email": "tony.stark@starkindustries.com",
+            "role": "Industrialist",
+            "avatarUrl": "https://i.pravatar.cc/200?img=5",
+            "bio": "The mechanic who is also a superhero on the side."
+        },
+        {
+            "id": "6",
+            "name": "Bruce Wayne",
+            "email": "bruce.wayne@wayneenterprises.com",
+            "role": "Entrepreneur",
+            "avatarUrl": "https://i.pravatar.cc/200?img=6",
+            "bio": "A philanthropist with a dark night job."
+        },
+        {
+            "id": "7",
+            "name": "Diana Prince",
+            "email": "diana.prince@themyscira.com",
+            "role": "Archaeologist",
+            "avatarUrl": "https://i.pravatar.cc/200?img=7",
+            "bio": "A lover of ancient artifacts and part-time superheroine."
+        },
+        {
+            "id": "8",
+            "name": "Peter Parker",
+            "email": "peter.parker@dailybugle.net",
+            "role": "Photographer",
+            "avatarUrl": "https://i.pravatar.cc/200?img=8",
+            "bio": "Always looking for the best shot!"
+        },
+        {
+            "id": "9",
+            "name": "Natasha Romanoff",
+            "email": "n.romanoff@shield.gov",
+            "role": "Spy",
+            "avatarUrl": "https://i.pravatar.cc/200?img=9",
+            "bio": "Espionage is my game."
+        },
+        {
+            "id": "10",
+            "name": "Clark Kent",
+            "email": "clark.kent@dailyplanet.com",
+            "role": "Journalist",
+            "avatarUrl": "https://i.pravatar.cc/200?img=10",
+            "bio": "A mild-mannered reporter with a strong sense of justice."
+        }
+    ]
+}

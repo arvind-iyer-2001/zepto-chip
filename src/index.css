@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: white; /* Light Background color */
+    --foreground: hsl(222.2, 84%, 4.9%); /* Zepto-1-hsla */
+    --card: white; /* Light Background color */
+    --card-foreground: hsl(222.2, 84%, 4.9%); /* Zepto-1-hsla */
+    --popover: white; /* Light Background color */
+    --popover-foreground: hsl(222.2, 84%, 4.9%); /* Zepto-1-hsla */
+    --primary: hsl(221.2, 83.2%, 53.3%); /* Zepto-1-hsla */
+    --primary-foreground: hsl(210, 40%, 98%); /* Pri (HSLA) */
+    --secondary: hsl(210, 40%, 96.1%); /* Zepto-2-hsla */
+    --secondary-foreground: hsl(222.2, 47.4%, 11.2%); /* Zepto-2-foreground-hsla */
+    --muted: hsl(210, 40%, 96.1%); /* Zepto-3-hsla */
+    --muted-foreground: hsl(215.4, 16.3%, 46.9%); /* Zepto-4-hsla */
+    --accent: hsl(210, 40%, 96.1%); /* Zepto-5-hsla */
+    --accent-foreground: hsl(222.2, 47.4%, 11.2%); /* Zepto-5-foreground-hsla */
+    --destructive: hsl(0, 84.2%, 60.2%); /* Zepto-3-hsla */
+    --destructive-foreground: hsl(210, 40%, 98%); /* Zepto-3-foreground-hsla */
+    --border: hsl(214.3, 31.8%, 91.4%); /* Zepto-4-hsla */
+    --input: hsl(214.3, 31.8%, 91.4%); /* Zepto-4-hsla */
+    --ring: hsl(221.2, 83.2%, 53.3%); /* Zepto-5-hsla */
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: hsl(222.2, 84%, 4.9%); /* Zepto-1-hsla */
+    --foreground: hsl(210, 40%, 98%); /* Pri (HSLA) */
+    --card: hsl(222.2, 84%, 4.9%); /* Zepto-1-hsla */
+    --card-foreground: hsl(210, 40%, 98%); /* Pri (HSLA) */
+    --popover: hsl(222.2, 84%, 4.9%); /* Zepto-1-hsla */
+    --popover-foreground: hsl(210, 40%, 98%); /* Pri (HSLA) */
+    --primary: hsl(217.2, 91.2%, 59.8%); /* Zepto-2-hsla */
+    --primary-foreground: hsl(222.2, 47.4%, 11.2%); /* Zepto-2-foreground-hsla */
+    --secondary: hsl(217.2, 32.6%, 17.5%); /* Zepto-3-hsla */
+    --secondary-foreground: hsl(210, 40%, 98%); /* Pri (HSLA) */
+    --muted: hsl(217.2, 32.6%, 17.5%); /* Zepto-3-hsla */
+    --muted-foreground: hsl(215, 20.2%, 65.1%); /* Zepto-4-hsla */
+    --accent: hsl(217.2, 32.6%, 17.5%); /* Zepto-3-hsla */
+    --accent-foreground: hsl(210, 40%, 98%); /* Pri (HSLA) */
+    --destructive: hsl(0, 62.8%, 30.6%); /* Zepto-4-hsla */
+    --destructive-foreground: hsl(210, 40%, 98%); /* Pri (HSLA) */
+    --border: hsl(217.2, 32.6%, 17.5%); /* Zepto-3-hsla */
+    --input: hsl(217.2, 32.6%, 17.5%); /* Zepto-3-hsla */
+    --ring: hsl(224.3, 76.3%, 48%); /* Zepto-4-hsla */
+  }
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 8px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background-color: var(--secondary); /* Use the secondary color here */
+  border-radius: 20px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background-color: transparent;
+}
