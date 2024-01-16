@@ -39,12 +39,12 @@ To use the Chip Component in your own project, you can follow these steps:
 
 2. Import the ChipListInputComponent into your desired React component:
 ```typecript
-import ChipListInput from './components/ChipComponent';
+import ChipListInput from './components/ChipListInput';
 ```
 
 3. Include the ChipComponent in your TSX:
 ```typecript
-<ChipComponent />
+<ChipListInput />
 ```
 4. Customize the component as needed for your specific use case.
 
