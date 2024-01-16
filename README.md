@@ -31,9 +31,10 @@ pnpm i
 ```bash
 npm start
 ```
-Open your browser and access the component at [http://localhost:3000](http://localhost:3000).
+4. Open your browser and access the component at [http://localhost:3000](http://localhost:3000).
 
-Usage
+# Usage
+
 To use the Chip Component in your own project, you can follow these steps:
 1. Copy the contents of the Components Folder file to your project's components folder.
 
